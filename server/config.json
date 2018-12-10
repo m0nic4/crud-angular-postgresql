@@ -1,0 +1,9 @@
+{
+  "user": "monica",
+  "host": "localhost",
+  "database": "cognosdb",
+  "password": "123456",
+  "port": 5432,
+  "max": 10,
+  "idleTimeoutMillis": 30000
+}
