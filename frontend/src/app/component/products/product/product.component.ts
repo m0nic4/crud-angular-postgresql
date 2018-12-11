@@ -10,7 +10,8 @@ import { Product } from '../../../models/product';
   styleUrls: ['./product.component.css']
 })
 export class ProductComponent implements OnInit {
-  constructor(private productService: ProductService) {}
+ // productService: ProductService;
+  constructor( public productService: ProductService) {}
 
   ngOnInit() {}
   getProducts() {

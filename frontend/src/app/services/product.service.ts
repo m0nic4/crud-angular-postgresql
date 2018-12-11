@@ -9,7 +9,7 @@ export class ProductService {
   productList: Product[];
   selectedProduct: Product = new Product();
 
-  URL_API = 'http://localhost:3000/apilab/products';
+  URL_API = 'http://192.168.2.107:3000/apilab/products';
 
   constructor(private http: HttpClient) {}
 
